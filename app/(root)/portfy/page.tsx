@@ -11,7 +11,7 @@ const Portfy = () => {
           </div>
           <div className='w-[35%] border-2'></div>
           <div className='w-[100%]'>
-            <h2 className='text-[54px] font-bold'>Senior Developer</h2>
+            <h2 className='text-[54px] font-bold'>FullStack Developer</h2>
           </div>
           <div className='flex items-center w-[40%] gap-7'>
           <Image src="/JavaScript_Logo.webp" alt='group' width={100} height={100} className='w-full h-full bg-white'/>
