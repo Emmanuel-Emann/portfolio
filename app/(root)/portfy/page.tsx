@@ -5,7 +5,7 @@ const Portfy = () => {
   return (
     <div className='w-full h-screen p-20'>
       <div className='flex gap-10'>
-        <section className='w-[100%] flex flex-col gap-6'>
+        <section className='w-[100%] flex flex-col gap-8'>
           <div className='w-[50%]'>
             <h1 className='text-[81px] font-extrabold'>Augustine Emmanuel</h1>
           </div>
