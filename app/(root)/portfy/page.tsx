@@ -24,7 +24,7 @@ const Portfy = () => {
             <div className='bg-white flex items-center text-black p-5'>
               <div className='w-[50%] flex flex-col gap-5'>
                 <h1 className='text-4xl font-bold'>Reliable</h1>
-                <p className='text-xl font-normal'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta excepturi placeat distinctio eligendi alias.</p>
+                <p className='font-normal'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta excepturi placeat distinctio eligendi alias.</p>
                 <div className=' bg-slate-400 w-[30%] flex justify-center p-3 rounded-md cursor-pointer'>
                   <button>
                     Contact
@@ -38,15 +38,15 @@ const Portfy = () => {
               <div className='flex flex-col gap-7'>
                 <div>
                   <h1 className='text-2xl font-semibold'>UI/UX Design</h1>
-                  <p className='text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className=' font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
                 </div>
                 <div>
                   <h1 className='text-2xl font-semibold'>HTML, CSS, JAVASCRIPT</h1>
-                  <p className='text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
                 </div>
                 <div>
                   <h1 className='text-2xl font-semibold'>REACT FRAME-WORKS</h1>
-                  <p className='text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
                 </div>
               </div>
             </div>
