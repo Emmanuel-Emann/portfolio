@@ -14,9 +14,12 @@ const Portfy = () => {
             <h2 className='text-[54px] font-bold'>FullStack Developer</h2>
           </div>
           <div className='flex items-center w-[40%] gap-7'>
-          <Image src="/JavaScript_Logo.webp" alt='group' width={100} height={100} className='w-full h-full bg-white'/>
+            <Image src="/JavaScript_Logo.webp" alt='group' width={100} height={100} className='w-full h-full bg-white'/>
             <Image src="htmlwordmark.svg" alt='group' width={100} height={100} className='w-full h-full'/>
             <Image src="/css.png" alt='group' width={100} height={100} className='w-full h-full'/>
+          </div>
+          <div className='flex items-center w-[40%] gap-7'>
+            <Image src="/mern.png" alt='mern' width={100} height={100} className='w-full h-full'/>
           </div>
         </section>
         <section className='w-[100%]'>
@@ -50,8 +53,25 @@ const Portfy = () => {
                 </div>
               </div>
             </div>
+              <div className='bg-white text-black p-5 flex-col gap-5 flex'>
+              <h1 className='text-4xl font-bold'>Back-end Skills</h1>
+              <div className='flex flex-col gap-7'>
+                <div>
+                  <h1 className='text-2xl font-semibold'>Javascript</h1>
+                  <p className=' font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                </div>
+                <div>
+                  <h1 className='text-2xl font-semibold'>NodeJs</h1>
+                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                </div>
+                <div>
+                  <h1 className='text-2xl font-semibold'>MongoDb</h1>
+                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                </div>
+              </div>
+            </div>
             <div className='bg-white text-black flex flex-col items-center p-4 h-[30vh] w-[100%]'>
-              <h1 className='text-4xl font-bold'>Certificate</h1>
+              <h1 className='text-4xl font-bold'>Certified</h1>
               <div className='w-[100%] h-[40vh] flex items-center gap-2'>
                 <Image src="/certi.png" alt='certi' width={100} height={100} className='w-[30%] h-[20vh]'/>
                 <Image src="/funds.png" alt='certi' width={100} height={100} className='w-[30%] h-[20vh]'/>
