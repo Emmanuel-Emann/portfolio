@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Portfy = () => {
@@ -27,11 +28,20 @@ const Portfy = () => {
             <div className='bg-white flex items-center text-black p-5'>
               <div className='w-[50%] flex flex-col gap-5'>
                 <h1 className='text-4xl font-bold'>Reliable</h1>
-                <p className='font-normal'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta excepturi placeat distinctio eligendi alias.</p>
+                <p className='font-normal'>
+                  Consistency and Timeliness,
+                  Adaptability and Problem-Solving
+                  Quality of Work
+                  Communication and Collaboration,
+                  Feedback and Improvement.
+                </p>
                 <div className=' bg-slate-400 w-[30%] flex justify-center p-3 rounded-md cursor-pointer'>
+                  <Link href="/contactform">
                   <button>
                     Contact
                   </button>
+                  </Link>
+
                 </div>
               </div>
               <Image src="/eman.jpeg" alt='header' width={100} height={100} className='w-[50%] h-[20vh]'/>
@@ -41,15 +51,17 @@ const Portfy = () => {
               <div className='flex flex-col gap-7'>
                 <div>
                   <h1 className='text-2xl font-semibold'>UI/UX Design</h1>
-                  <p className=' font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className=' font-normal'>Get a beautiful User Interface(UI) and User Experience(UX) design from an experienced designer with good years of experience</p>
                 </div>
                 <div>
                   <h1 className='text-2xl font-semibold'>HTML, CSS, JAVASCRIPT</h1>
-                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className='font-normal'>
+                    Good code base, save, clean and  great result
+                  </p>
                 </div>
                 <div>
                   <h1 className='text-2xl font-semibold'>REACT FRAME-WORKS</h1>
-                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className='font-normal'>Design your website with smooth navigation and transition, great user experiences, and good form ability.</p>
                 </div>
               </div>
             </div>
@@ -58,15 +70,19 @@ const Portfy = () => {
               <div className='flex flex-col gap-7'>
                 <div>
                   <h1 className='text-2xl font-semibold'>Javascript</h1>
-                  <p className=' font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className=' font-normal'>
+                    We provide you with detailed, comprehensive requirements for the project. The more specific you are, the better we understands what you needs. We maintain open lines of communication. Regular check-ins allow you to address any issues early on and ensure the project is on track.
+                  </p>
                 </div>
                 <div>
                   <h1 className='text-2xl font-semibold'>NodeJs</h1>
-                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className='font-normal'>No stress to the importance of security practices, including input validation, authentication, authorization, and protecting against common vulnerabilities like injection attacks.</p>
                 </div>
                 <div>
                   <h1 className='text-2xl font-semibold'>MongoDb</h1>
-                  <p className='font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iure nesciunt. Sit quisquam dolorum voluptatibus perspiciatis iure recusandae quam qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, doloremque.</p>
+                  <p className='font-normal'>
+                    Request comprehensive documentation for the database schema, relationships, data flow, and any necessary guidelines for maintenance and troubleshooting.
+                  </p>
                 </div>
               </div>
             </div>
