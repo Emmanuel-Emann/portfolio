@@ -21,7 +21,7 @@ const ContactUs = () => {
     <section className='flex flex-col items-center justify-center'>
     <div className='flex items-center justify-center mt-32  flex-col border-8 w-[50%] p-5'>
       <h1 className='text-4xl font-bold mb-40 '>Contact Me</h1>
-      <form ref={form} onSubmit={sendEmail} className='flex flex-col items-center gap-10'>
+      <form onSubmit={sendEmail} className='flex flex-col items-center gap-10'>
         <div className='w-[100%] flex items-center gap-5'>
         <label className='text-2xl font-medium'>Name</label>
         <input type="text" name="user_name" className='w-[30vw] border-b-2 h-[4vh] outline-none bg-transparent p-2'/>
