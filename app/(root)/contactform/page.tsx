@@ -1,6 +1,5 @@
-"use client"
-
-import React, { useRef } from 'react';
+import React from 'react'
+// import { EmailTemplate } from '@/components/EmailTemplate';
 
 const ContactUs = () => {
 
@@ -27,6 +26,7 @@ const ContactUs = () => {
         
       </form>
     </div>
+    {/* <EmailTemplate/> */}
     </section>
 
     
