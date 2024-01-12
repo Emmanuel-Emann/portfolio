@@ -1,21 +1,8 @@
 "use client"
 
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
-  // const form = useRef();
-
-  // const sendEmail = (e: any) => {
-  //   e.preventDefault();
-
-  //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', 'YOUR_PUBLIC_KEY')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
 
   return (
     <section className='flex flex-col items-center justify-center'>
@@ -31,10 +18,13 @@ const ContactUs = () => {
         <input type="email" name="user_email" className='w-[30vw] border-b-2 h-[4vh] outline-none bg-transparent p-2'/>
         </div>
         <div className='w-[100%] flex items-center gap-5'>
-        <label className='text-2xl font-medium'>Message</label>
+        {/* <label className='text-2xl font-medium'>Message</label> */}
         <textarea name="message" className='w-[100%] h-[18vh] rounded-md border text-black'/>
         </div>
-        <input type="submit" value="Send"/>
+        <button className='cursor-pointer bg-sky-400 w-[20%] p-4 rounded-md hover:bg-sky-300 hover:text-black'>
+          <input type="submit" value="Send" className='cursor-pointer'/>
+        </button>
+        
       </form>
     </div>
     </section>

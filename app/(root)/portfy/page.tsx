@@ -12,16 +12,16 @@ const Portfy = () => {
           </div>
           <div className='w-[35%] border-2'></div>
           <div className='w-[100%]'>
-            <h2 className='text-[54px] font-bold'>FullStack Developer</h2>
+            <h2 className='text-[54px] font-bold'>Software Developer</h2>
           </div>
           <div className='flex items-center w-[40%] gap-7'>
             <Image src="/JavaScript_Logo.webp" alt='group' width={100} height={100} className='w-full h-full bg-white'/>
             <Image src="htmlwordmark.svg" alt='group' width={100} height={100} className='w-full h-full'/>
             <Image src="/css.png" alt='group' width={100} height={100} className='w-full h-full'/>
           </div>
-          <div className='flex items-center w-[40%] gap-7'>
+          {/* <div className='flex items-center w-[40%] gap-7'>
             <Image src="/mern.png" alt='mern' width={100} height={100} className='w-full h-full'/>
-          </div>
+          </div> */}
         </section>
         <section className='w-[100%]'>
           <div className='w-[100%] flex flex-col gap-5'>
@@ -38,7 +38,7 @@ const Portfy = () => {
                 <div className=' bg-slate-400 w-[30%] flex justify-center p-3 rounded-md cursor-pointer'>
                   <Link href="/contactform">
                   <button>
-                    Contact
+                    Contact me
                   </button>
                   </Link>
 
@@ -46,7 +46,7 @@ const Portfy = () => {
               </div>
               <Image src="/eman.jpeg" alt='header' width={100} height={100} className='w-[50%] h-[20vh]'/>
             </div>
-            <div className='bg-white text-black p-5 flex-col gap-5 flex'>
+            {/* <div className='bg-white text-black p-5 flex-col gap-5 flex'>
               <h1 className='text-4xl font-bold'>Front-end Skills</h1>
               <div className='flex flex-col gap-7'>
                 <div>
@@ -58,10 +58,6 @@ const Portfy = () => {
                   <p className='font-normal'>
                     Good code base, save, clean and  great result
                   </p>
-                </div>
-                <div>
-                  <h1 className='text-2xl font-semibold'>REACT FRAME-WORKS</h1>
-                  <p className='font-normal'>Design your website with smooth navigation and transition, great user experiences, and good form ability.</p>
                 </div>
               </div>
             </div>
@@ -79,13 +75,13 @@ const Portfy = () => {
                   <p className='font-normal'>No stress to the importance of security practices, including input validation, authentication, authorization, and protecting against common vulnerabilities like injection attacks.</p>
                 </div>
                 <div>
-                  <h1 className='text-2xl font-semibold'>MongoDb</h1>
+                  <h1 className='text-2xl font-semibold'>Database</h1>
                   <p className='font-normal'>
                     Request comprehensive documentation for the database schema, relationships, data flow, and any necessary guidelines for maintenance and troubleshooting.
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className='bg-white text-black flex flex-col items-center p-4 h-[30vh] w-[100%]'>
               <h1 className='text-4xl font-bold'>Certified</h1>
               <div className='w-[100%] h-[40vh] flex items-center gap-2'>
