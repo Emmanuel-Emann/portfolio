@@ -35,7 +35,7 @@ const Portfy = () => {
                   Communication and Collaboration,
                   Feedback and Improvement.
                 </p>
-                <div className=' bg-slate-400 w-[30%] flex justify-center p-3 rounded-md cursor-pointer'>
+                <div className=' bg-slate-400 w-[35%] flex justify-center p-3 rounded-md cursor-pointer'>
                   <Link href="/contactform">
                   <button>
                     Contact me
@@ -44,7 +44,7 @@ const Portfy = () => {
 
                 </div>
               </div>
-              <Image src="/eman.jpeg" alt='header' width={100} height={100} className='w-[50%] h-[20vh]'/>
+              <Image src="/eman.jpeg" alt='header' width={100} height={100} className='w-[50%] h-[30vh]'/>
             </div>
             {/* <div className='bg-white text-black p-5 flex-col gap-5 flex'>
               <h1 className='text-4xl font-bold'>Front-end Skills</h1>
