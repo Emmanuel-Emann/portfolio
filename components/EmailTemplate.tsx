@@ -1,7 +1,9 @@
+"use client"
+
 import { useState } from "react";
 import Head from "next/head";
 
-export default function Home() {
+const  Emailtemplate = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [loading, setLoading] = useState(false);
@@ -9,6 +11,7 @@ export default function Home() {
     const handleSubmit = () => {
       console.log("Call send API here")
     }
+
     return (
         <main
             className={`flex flex-col items-center p-24 min-h-screen`}
@@ -21,13 +24,8 @@ export default function Home() {
                 <div className="flex flex-col place-items-center gap-4">
                     <h1 className={`m-0 text-center text-3xl`}>Contact Me</h1>
                 </div>
-                <form
-                    className="mt-6 flex flex-col max-w-xl gap-4 z-10"
-                    onSubmit={handleSubmit}
-                >
-                    <label htmlFor="name" className="sr-only">
-                        Name
-                    </label>
+                <form className="mt-6 flex flex-col max-w-xl gap-4 z-10" onSubmit={handleSubmit}>
+                    <label htmlFor="name" className="sr-only">Name</label>
                     <input
                         id="name"
                         name="name"
@@ -37,11 +35,9 @@ export default function Home() {
                         value={name}
                         className="rounded-md bg-white/5 px-3.5 py-2.5 text-white ring-1 ring-inset focus:ring-blue-600 text-sm md:w-96"
                         placeholder="Name"
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                    <label htmlFor="email-address" className="sr-only">
-                        Email address
-                    </label>
+                        onChange={(e) => setName(e.target.value)}/>
+
+                    <label htmlFor="email-address" className="sr-only">Email address </label>
                     <input
                         id="email-address"
                         name="email"
@@ -73,3 +69,5 @@ export default function Home() {
         </main>
     );
 }
+
+export default Emailtemplate
