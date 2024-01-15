@@ -1,15 +1,11 @@
 "use client"
 
-import Emailtemplate from '@/components/EmailTemplate';
-import React from 'react'
+import Contact from "@/components/contact";
 
-const Contactus = () => {
-
+export default function Home() {
   return (
-    <section className='flex flex-col items-center justify-center'>
-      <Emailtemplate/>
-    </section>
+    <main className='flex min-h-screen flex-col items-center justify-center p-24 bg-white'>
+      <Contact />
+    </main>
   );
-};
-
-export default Contactus
+}

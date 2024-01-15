@@ -5,7 +5,7 @@ import React from 'react'
 const Portfy = () => {
   return (
     <div className='w-full h-screen p-20'>
-      <div className='flex gap-10'>
+      <div className='flex gap-10 md:flex'>
         <section className='w-[100%] flex flex-col gap-12'>
           <div className='w-[50%]'>
             <h1 className='text-[81px] font-extrabold'>Augustine Emmanuel</h1>
@@ -41,10 +41,9 @@ const Portfy = () => {
                     Contact me
                   </button>
                   </Link>
-
                 </div>
               </div>
-              <Image src="/eman.jpeg" alt='header' width={100} height={100} className='w-[50%] h-[30vh]'/>
+              <Image src="/eman.jpeg" alt='header' width={100} height={100} className=' w-[100%] md:w-[50%] h-[30vh]'/>
             </div>
             {/* <div className='bg-white text-black p-5 flex-col gap-5 flex'>
               <h1 className='text-4xl font-bold'>Front-end Skills</h1>
