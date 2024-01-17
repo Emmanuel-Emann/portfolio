@@ -4,7 +4,7 @@ import React from 'react'
 
 const Portfy = () => {
   return (
-    <div className='w-full h-screen p-20'>
+    <div className='w-full h-screen p-20 mediacontain'>
       <div className='flex gap-10 md:flex mediascreens'>
         <section className='w-[100%] flex flex-col gap-12'>
           <div className='w-[50%] namescreen'>
@@ -25,7 +25,7 @@ const Portfy = () => {
         </section>
         <section className='w-[100%]'>
           <div className='w-[100%] flex flex-col gap-5'>
-            <div className='bg-white flex items-center text-black imagescreen w-[100%] p-5'>
+            <div className='bg-white flex items-center text-black imagescreen w-[100%] p-5 gap-2'>
               <div className='w-[50%] flex flex-col gap-5 textscreen'>
                 <h1 className='text-4xl font-bold'>Reliable</h1>
                 <p className='font-normal'>
@@ -35,7 +35,7 @@ const Portfy = () => {
                   Communication and Collaboration,
                   Feedback and Improvement.
                 </p>
-                <div className=' bg-slate-400 w-[35%] flex justify-center p-3 rounded-md cursor-pointer'>
+                <div className=' bg-slate-400 w-[100%] flex justify-center p-3 rounded-md cursor-pointer'>
                   <Link href="/contactform">
                   <button>
                     Contact me

@@ -50,6 +50,9 @@ body {
     font-size: 48px;
     font-weight: 500;
   }
+  .mediacontain {
+    padding: 2rem;
+  }
 }
 @media (max-width: 880px) {
   .mediascreens {
