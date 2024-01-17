@@ -5,10 +5,10 @@ import React from 'react'
 const Portfy = () => {
   return (
     <div className='w-full h-screen p-20'>
-      <div className='flex gap-10 md:flex'>
+      <div className='flex gap-10 md:flex mediascreens'>
         <section className='w-[100%] flex flex-col gap-12'>
-          <div className='w-[50%]'>
-            <h1 className='text-[81px] font-extrabold'>Augustine Emmanuel</h1>
+          <div className='w-[50%] namescreen'>
+            <h1 className='text-[81px] font-extrabold names'>Augustine Emmanuel</h1>
           </div>
           <div className='w-[35%] border-2'></div>
           <div className='w-[100%]'>
@@ -25,8 +25,8 @@ const Portfy = () => {
         </section>
         <section className='w-[100%]'>
           <div className='w-[100%] flex flex-col gap-5'>
-            <div className='bg-white flex items-center text-black p-5'>
-              <div className='w-[50%] flex flex-col gap-5'>
+            <div className='bg-white flex items-center text-black imagescreen w-[100%] p-5'>
+              <div className='w-[50%] flex flex-col gap-5 textscreen'>
                 <h1 className='text-4xl font-bold'>Reliable</h1>
                 <p className='font-normal'>
                   Consistency and Timeliness,
@@ -81,12 +81,12 @@ const Portfy = () => {
                 </div>
               </div>
             </div> */}
-            <div className='bg-white text-black flex flex-col items-center p-4 h-[30vh] w-[100%]'>
+            <div className='bg-white text-black flex flex-col items-center p-4 w-[100%] gap-5'>
               <h1 className='text-4xl font-bold'>Certified</h1>
-              <div className='w-[100%] h-[40vh] flex items-center gap-2'>
-                <Image src="/certi.png" alt='certi' width={100} height={100} className='w-[30%] h-[20vh]'/>
-                <Image src="/funds.png" alt='certi' width={100} height={100} className='w-[30%] h-[20vh]'/>
-                <Image src="/advance.png" alt='certi' width={100} height={100} className='w-[30%] h-[20vh]'/>
+              <div className='w-[100%] flex items-center gap-2 justify-center bg-green-300 p-6 rounded-md'>
+                <button className='text-xl font-bold'>
+                  Download CV
+                </button>
               </div>
             </div>
           </div>

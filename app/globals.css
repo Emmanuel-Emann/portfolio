@@ -25,3 +25,43 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@media (max-width: 1080px) {
+  .mediascreens {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagescreen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    padding: 0;
+  }
+  .textscreen {
+    width: 90%;
+  }
+  .namescreen {
+    width: 30%;
+  }
+  .names {
+    font-size: 48px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 880px) {
+  .mediascreens {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagescreen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+}
