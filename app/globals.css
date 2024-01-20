@@ -18,12 +18,20 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* rgb(var(--background-start-rgb)); */
 }
 
 @media (max-width: 1080px) {
@@ -67,4 +75,17 @@ body {
     width: 100%;
     gap: 2rem;
   }
+}
+
+.transparentglass {
+  border-radius: 15px;
+  background: rgba(95, 80, 80, 0.312);
+  padding: 2rem;
+}
+.cardtrans {
+  box-shadow: 2px 2px rgba(116, 75, 75, 0.446),
+    -0.2em 0 0.4em rgba(80, 130, 135, 0.448);
+}
+.scrollpath {
+  overflow: scroll;
 }

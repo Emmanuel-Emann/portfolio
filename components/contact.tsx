@@ -20,7 +20,7 @@ const Contact: FC = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <div className='mb-5'>
+      <div className='mb-5 w-[50vw]'>
         <label
           htmlFor='name'
           className='mb-3 block text-base font-medium text-black'
@@ -34,7 +34,7 @@ const Contact: FC = () => {
           {...register('name', { required: true })}
         />
       </div>
-      <div className='mb-5'>
+      <div className='mb-5 w-[50vw]'>
         <label
           htmlFor='email'
           className='mb-3 block text-base font-medium text-black'
@@ -48,7 +48,7 @@ const Contact: FC = () => {
           {...register('email', { required: true })}
         />
       </div>
-      <div className='mb-5'>
+      <div className='mb-5 w-[50vw]'>
         <label
           htmlFor='message'
           className='mb-3 block text-base font-medium text-black'

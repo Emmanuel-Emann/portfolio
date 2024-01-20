@@ -1,3 +1,5 @@
+import BackEnd from '@/components/backendskill/BackEnd'
+import FrontEnd from '@/components/frontendskill/FrontEnd'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -22,28 +24,35 @@ const Portfy = () => {
           {/* <div className='flex items-center w-[40%] gap-7'>
             <Image src="/mern.png" alt='mern' width={100} height={100} className='w-full h-full'/>
           </div> */}
+          <div>
+            About Me
+          </div>
         </section>
-        <section className='w-[100%]'>
+        <section className='w-[100%] scrollpath'>
           <div className='w-[100%] flex flex-col gap-5'>
-            <div className='bg-white flex items-center text-black imagescreen w-[100%] p-5 gap-2'>
+            <div className='bg-white flex items-center text-black imagescreen w-[100%] p-5 gap-2 rounded-lg shadow-2xl'>
               <div className='w-[50%] flex flex-col gap-5 textscreen'>
                 <h1 className='text-4xl font-bold'>Reliable</h1>
                 <p className='font-normal'>
-                  Consistency and Timeliness,
+                  {/* Consistency and Timeliness,
                   Adaptability and Problem-Solving
                   Quality of Work
                   Communication and Collaboration,
-                  Feedback and Improvement.
+                  Feedback and Improvement. */}
                 </p>
                 <div className=' bg-slate-400 w-[100%] flex justify-center p-3 rounded-md cursor-pointer'>
                   <Link href="/contactform">
                   <button>
-                    Contact me
+                    Contact Us
                   </button>
                   </Link>
                 </div>
               </div>
               <Image src="/eman.jpeg" alt='header' width={100} height={100} className=' w-[100%] md:w-[50%] h-[30vh]'/>
+            </div>
+            <div className='flex flex-col gap-5'>
+              <FrontEnd/>
+              <BackEnd/>
             </div>
             {/* <div className='bg-white text-black p-5 flex-col gap-5 flex'>
               <h1 className='text-4xl font-bold'>Front-end Skills</h1>
@@ -81,12 +90,14 @@ const Portfy = () => {
                 </div>
               </div>
             </div> */}
-            <div className='bg-white text-black flex flex-col items-center p-4 w-[100%] gap-5'>
-              <h1 className='text-4xl font-bold'>Certified</h1>
+            <div className='bg-white text-black flex flex-col items-center p-4 w-[100%] gap-5 shadow-2xl'>
+              <h1 className='text-4xl font-bold'>My CV</h1>
               <div className='w-[100%] flex items-center gap-2 justify-center bg-green-300 p-6 rounded-md'>
+                <Link href="/submitemail" download="name cd.pdf">
                 <button className='text-xl font-bold'>
                   Download CV
                 </button>
+                </Link>
               </div>
             </div>
           </div>
