@@ -6,7 +6,7 @@ import React from 'react'
 
 const Portfy = () => {
   return (
-    <div className='w-full h-screen p-20 mediacontain'>
+    <div className='w-full h-screen p-10 mediacontain'>
       <div className='flex gap-10 md:flex mediascreens'>
         <section className='w-[100%] flex flex-col gap-12'>
           <div className='w-[50%] namescreen'>
