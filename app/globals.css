@@ -43,6 +43,9 @@ body {
 .mediacontain {
   padding: 2rem;
 }
+.imagescreen {
+  background: #ffffff27;
+}
 
 @media (max-width: 1080px) {
   .mediascreens {

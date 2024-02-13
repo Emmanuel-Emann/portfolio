@@ -60,11 +60,11 @@ const Portfy = () => {
         </section>
         <section className='w-[100%] scrollpath'>
           <div className='w-[100%] flex flex-col gap-5'>
-            <div className='bg-white flex items-center text-black imagescreen w-[100%] p-5 gap-2 rounded-lg shadow-2xl'>
+            <div className='flex items-center text-black imagescreen w-[100%] p-5 gap-2 rounded-lg shadow-2xl'>
               <div className='w-[50%] flex flex-col gap-5 textscreen'>
                 <div className=' bg-slate-400 w-[90%] flex justify-center p-5 rounded-md cursor-pointer buttonwell'>
                   <Link href="/contactform">
-                  <button className='text-4xl font-bold'>
+                  <button className='text-2xl font-bold'>
                     Contact
                   </button>
                   </Link>
