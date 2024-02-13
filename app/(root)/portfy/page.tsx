@@ -17,7 +17,7 @@ const Portfy = () => {
         <div>
         <div className='flex item-center justify-between w-[100%] pr-8'>
           <h1 className='text-xl font-mono font-bold'>Portfy</h1>
-          <IoMdClose size={25} onClick={() => setToggle(true)}/>
+          <IoMdClose size={25} onClick={() => setToggle(false)}/>
           </div>
           <div className='flex flex-col justify-center w-[100%] items-center mt-48 gap-8 cursor-pointer'>
             <Link href="">
@@ -39,7 +39,7 @@ const Portfy = () => {
               <h3 className='text-lg font-normal'>You can call me</h3><h1 className='text-[81px] font-extrabold names'>Eman</h1>
             </div>
             <div className='menubar'>
-              <CiMenuFries size={25} onClick={() => setToggle(false)}/>
+              <CiMenuFries size={25} onClick={() => setToggle(true)}/>
             </div>
           </div>
           <div className='w-[45%] border-2'></div>
@@ -64,7 +64,7 @@ const Portfy = () => {
               <div className='w-[50%] flex flex-col gap-5 textscreen'>
                 <div className=' bg-slate-400 w-[90%] flex justify-center p-5 rounded-md cursor-pointer buttonwell'>
                   <Link href="/contactform">
-                  <button className='text-2xl font-bold'>
+                  <button className='text-2xl font-bold cursor-pointer'>
                     Contact
                   </button>
                   </Link>
