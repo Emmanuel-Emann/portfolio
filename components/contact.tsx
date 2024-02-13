@@ -1,7 +1,6 @@
 'use client';
 
 import { sendEmail } from '@/utils/send-email';
-import Link from 'next/link';
 import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 
@@ -13,10 +12,11 @@ export type FormData = {
 };
 
 const Contact: FC = () => {
-  const { register, handleSubmit } = useForm<FormData>();
+  const { register, handleSubmit, reset } = useForm<FormData>();
 
   function onSubmit(data: FormData) {
     sendEmail(data);
+    reset()
   }
 
   return (
@@ -63,11 +63,11 @@ const Contact: FC = () => {
           {...register('message', { required: true })}
         ></textarea>
       </div>
-      <Link href="/">
+      <div>
         <button className='hover:shadow-form rounded-md bg-purple-500 py-3 px-8 text-base font-semibold text-white outline-none'>
           Submit
         </button>
-      </Link>
+      </div>
     </form>
   );
 };
