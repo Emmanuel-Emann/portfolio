@@ -1,6 +1,13 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 
 const FrontEnd = () => {
+  const [isReadMore, setReadMore] = useState(false)
+
+  const toggleRead = () => {
+    setReadMore(prevState => !prevState)
+  }
+
   return (
     <div className='transparentglass w-full flex flex-col gap-11'>
       <h1 className='text-4xl font-bold space-x-1 font-mono'>Frontend Skills</h1>
@@ -29,7 +36,8 @@ const FrontEnd = () => {
         <h1 className='text-2xl font-bold font-mono'>REACT , FRAMEWORK NEXTJS</h1>
         <div className='flex flex-col gap-5'>
           <h2 className='text-xl font-mono font-semibold'>Static Site Generation (SSG) and Server-Side Rendering (SSR) in Next.js, API Routes and Data Fetching in Next.js</h2>
-          <p className='text-lg font-mono font-medium w-[90%]'>Explore the benefits of static site generation and server-side rendering in Next.js. Learn how to optimize performance by pre-rendering pages at build time or on-demand.Next.js API routes and data fetching strategies. Understand how to seamlessly integrate backend functionality and fetch data for your applications while maintaining a unified codebase.</p>
+          {isReadMore ? <p className='text-lg font-mono font-medium w-[90%]'>Explore the benefits of static site generation and server-side rendering in Next.js. Learn how to optimize performance by pre-rendering pages at build time or on-demand.Next.js API routes and data fetching strategies. Understand how to seamlessly integrate backend functionality and fetch data for your applications while maintaining a unified codebase.</p> : <p className='text-lg font-mono font-medium w-[90%]'>Explore the benefits of static site generation and server-side rendering in Next.js. Learn how to optimize performance by pre-rendering pages at build time or on-demand.Next.js API routes and data fetching strategies.</p>}
+          <span onClick={toggleRead} style={{fontSize:".7rem", fontWeight:"bold", cursor:"pointer"}}>{isReadMore ? "Read less" : "...Read more"}</span>
         </div>
       </div>
     </div>

@@ -34,6 +34,16 @@ body {
   /* rgb(var(--background-start-rgb)); */
 }
 
+.menubar {
+  display: none;
+}
+.navbar-mobile {
+  display: none;
+}
+.mediacontain {
+  padding: 2rem;
+}
+
 @media (max-width: 1080px) {
   .mediascreens {
     width: 100%;
@@ -74,6 +84,31 @@ body {
     flex-direction: column;
     width: 100%;
     gap: 2rem;
+  }
+  .buttonwell {
+    display: none;
+  }
+  .menubar {
+    display: inline;
+  }
+  .namescreen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .navbar-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background: #2c5364;
+    position: fixed;
+    padding: 1rem;
+  }
+  .mediacontain {
+    padding: 1rem;
   }
 }
 
