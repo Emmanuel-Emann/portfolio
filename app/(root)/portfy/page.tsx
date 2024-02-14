@@ -9,7 +9,7 @@ import {CiMenuFries} from 'react-icons/ci'
 import { IoMdClose } from "react-icons/io";
 
 const Portfy = () => {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(true)
 
   return (
     <div className='w-full h-screen mediacontain'>
