@@ -9,7 +9,7 @@ import {CiMenuFries} from 'react-icons/ci'
 import { IoMdClose } from "react-icons/io";
 
 const Portfy = () => {
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(false)
 
   return (
     <div className='w-full h-screen mediacontain'>
@@ -17,7 +17,7 @@ const Portfy = () => {
         <div>
         <div className='flex item-center justify-between w-[100%] pr-8'>
           <h1 className='text-xl font-mono font-bold'>Portfy</h1>
-          <IoMdClose size={25} onClick={() => setToggle(false)}/>
+          <IoMdClose size={25} onClick={() => setToggle(true)}/>
           </div>
           <div className='flex flex-col justify-center w-[100%] items-center mt-48 gap-8 cursor-pointer'>
             <Link href="">
@@ -39,7 +39,7 @@ const Portfy = () => {
               <h3 className='text-lg font-normal'>You can call me</h3><h1 className='text-[81px] font-extrabold names'>Eman</h1>
             </div>
             <div className='menubar'>
-              <CiMenuFries size={25} onClick={() => setToggle(true)}/>
+              <CiMenuFries size={25} onClick={() => setToggle(false)}/>
             </div>
           </div>
           <div className='w-[45%] border-2'></div>
